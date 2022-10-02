@@ -24,9 +24,13 @@
   width: 167px;
   background-color: #F25B35;
   color: #FFFFFF;
-  font-family: Poppins;
+  font-family: "Poppins";
   font-size: 16px;
   letter-spacing: 0;
   line-height: 25px;
   border: none;
+}
+
+.orange {
+  background-color: #F25B35;
 }/*# sourceMappingURL=styles.css.map */

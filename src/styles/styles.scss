@@ -1,6 +1,8 @@
+@import 'variables';
+
 .nav-dinamiq{
     height: 142px;
-    background-color: #5C9EFF;
+    background-color: $dinamiq-blue;
     .logo-header {
         height: 70px;
         width: 159px;
@@ -23,11 +25,15 @@
 .btn-dinamiq{
     height: 53px;
     width: 167px;
-    background-color: #F25B35;
+    background-color: $dinamiq-orange;
     color: #FFFFFF;
-    font-family: Poppins;
+    font-family: $dinamiq-fuente;
     font-size: 16px;
     letter-spacing: 0;
     line-height: 25px;
     border: none;
+}
+
+.orange{
+    background-color: #F25B35;
 }
