@@ -1,3 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.dinamiq-text-h1 {
+  color: #FFFFFF;
+  font-size: 62px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 99px;
+}
+
+.dinamiq-text-p {
+  color: #FFFFFF;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
 .nav-dinamiq {
   height: 142px;
   background-color: #5C9EFF;
@@ -24,7 +44,6 @@
   width: 167px;
   background-color: #F25B35;
   color: #FFFFFF;
-  font-family: "Poppins";
   font-size: 16px;
   letter-spacing: 0;
   line-height: 25px;

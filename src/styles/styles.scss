@@ -1,24 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 @import 'variables';
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
+body{
+    font-family: 'Poppins', sans-serif !important;
+}
 
 .dinamiq-text-h1{
-    color: #FFFFFF;
-    font-family:  'Poppins', sans-serif;
-    font-size: 66px;
+    color: $dinamiq-white;
+    font-size: 62px;
     font-weight: 600;
     letter-spacing: 0;
     line-height: 99px;
 }
 .dinamiq-text-p{
-    color: #FFFFFF;
-    font-family: 'Poppins', sans-serif;
+    color: $dinamiq-white;
     font-size: 18px;
     letter-spacing: 0;
     line-height: 27px;
 }
-
-
 
 .nav-dinamiq{
     height: 142px;
@@ -28,8 +27,7 @@
         width: 159px;
       }
     .nav-text{
-        color: #FFFFFF;
-        //font-family: Poppins;
+        color: $dinamiq-white;
         font-size: 18px;
         font-weight: 600;
         letter-spacing: 0;
@@ -46,8 +44,7 @@
     height: 53px;
     width: 167px;
     background-color: $dinamiq-orange;
-    color: #FFFFFF;
-    font-family: $dinamiq-fuente;
+    color: $dinamiq-white;
     font-size: 16px;
     letter-spacing: 0;
     line-height: 25px;
