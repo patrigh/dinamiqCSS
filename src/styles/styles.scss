@@ -1,5 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 @import 'variables';
 
+body{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.container-fluid{
+   padding: 0 !important;
+}
+
+.dinamiq-text-h1{
+    color: $dinamiq-white;
+    font-size: 66px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 99px;
+}
+.dinamiq-text-h2{
+    color: $dinamiq-white;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 76px;
+}
+.dinamiq-text-h3{
+    color: $dinamiq-white;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 35px;
+}
+.dinamiq-text-p{
+    color: $dinamiq-white;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 27px;
+}
+
+.orange{
+    color: $dinamiq-orange;
+}
+
+//NAVBAR
 .nav-dinamiq{
     height: 142px;
     background-color: $dinamiq-blue;
@@ -8,8 +50,7 @@
         width: 159px;
       }
     .nav-text{
-        color: #FFFFFF;
-        //font-family: Poppins;
+        color: $dinamiq-white;
         font-size: 18px;
         font-weight: 600;
         letter-spacing: 0;
@@ -17,23 +58,59 @@
     }
 }
 
-.carousel-inner .carousel-item img {
-    width: 100%;
-    height: 100%;
-  }
+
+//CAROUSEL
+.carousel-inner{
+    .carousel-item{
+        img {
+            width: 100%;
+            height: 100%;
+        }
+        .carousel-content{
+            //display: flex;
+            .item-content{
+                width: 540px;
+                margin: 34.74px 30px 50.26px 0; 
+            }
+        }
+    }
+}
 
 .btn-dinamiq{
     height: 53px;
     width: 167px;
     background-color: $dinamiq-orange;
-    color: #FFFFFF;
-    font-family: $dinamiq-fuente;
+    color: $dinamiq-white;
     font-size: 16px;
     letter-spacing: 0;
     line-height: 25px;
     border: none;
 }
+.arrow-big-red{
+    height: 137px !important;
+    width: 137px !important;
+}
 
-.orange{
+//CONTAINER ORANGE
+.container-orange{
     background-color: #F25B35;
+    height: 190px;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    img{
+        margin: 26.5px 0 25.5px;
+    }
+}
+
+//QUIENES SOMOS
+.quienes-somos{
+    .arrow-med{
+        margin: 9px 16px 18px 0;
+    }
+}
+.dinamiq-text-h2.dark-blue{
+    color: $dinamiq-dark-blue;
 }
