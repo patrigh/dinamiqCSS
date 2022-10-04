@@ -12,6 +12,20 @@ body{
     letter-spacing: 0;
     line-height: 99px;
 }
+.dinamiq-text-h2{
+    color: $dinamiq-white;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 76px;
+}
+.dinamiq-text-h3{
+    color: $dinamiq-white;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 35px;
+}
 .dinamiq-text-p{
     color: $dinamiq-white;
     font-size: 18px;
@@ -19,6 +33,7 @@ body{
     line-height: 27px;
 }
 
+//NAVBAR
 .nav-dinamiq{
     height: 142px;
     background-color: $dinamiq-blue;
@@ -35,6 +50,8 @@ body{
     }
 }
 
+
+//CAROUSEL
 .carousel-inner{
     .carousel-item{
         img {
@@ -42,7 +59,7 @@ body{
             height: 100%;
         }
         .carousel-content{
-            display: flex;
+            //display: flex;
             .item-content{
                 width: 540px;
                 margin: 34.74px 30px 50.26px 0; 
@@ -50,8 +67,6 @@ body{
         }
     }
 }
-
-    
 
 .btn-dinamiq{
     height: 53px;
@@ -68,6 +83,15 @@ body{
     width: 137px !important;
 }
 
-.orange{
+.container-orange{
     background-color: #F25B35;
+    height: 190px;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    img{
+        margin: 26.5px 0 25.5px;
+    }
 }
