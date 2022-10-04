@@ -3,6 +3,10 @@ body {
   font-family: "Poppins", sans-serif !important;
 }
 
+.container-fluid {
+  padding: 0 !important;
+}
+
 .dinamiq-text-h1 {
   color: #FFFFFF;
   font-size: 66px;
@@ -32,6 +36,10 @@ body {
   font-size: 18px;
   letter-spacing: 0;
   line-height: 27px;
+}
+
+.orange {
+  color: #F25B35;
 }
 
 .nav-dinamiq {
@@ -86,4 +94,12 @@ body {
 }
 .container-orange img {
   margin: 26.5px 0 25.5px;
+}
+
+.quienes-somos .arrow-med {
+  margin: 9px 16px 18px 0;
+}
+
+.dinamiq-text-h2.dark-blue {
+  color: #01468B;
 }/*# sourceMappingURL=styles.css.map */
