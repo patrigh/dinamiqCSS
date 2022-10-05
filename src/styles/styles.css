@@ -3,10 +3,6 @@ body {
   font-family: "Poppins", sans-serif !important;
 }
 
-.container-fluid {
-  padding: 0 !important;
-}
-
 .dinamiq-text-h1 {
   color: #FFFFFF;
   font-size: 66px;
@@ -21,6 +17,10 @@ body {
   font-weight: 600;
   letter-spacing: 0;
   line-height: 76px;
+}
+
+.dinamiq-text-h2.dark-blue {
+  color: #01468B;
 }
 
 .dinamiq-text-h3 {
@@ -104,6 +104,13 @@ body {
   margin: 9px 16px 18px 0;
 }
 
-.dinamiq-text-h2.dark-blue {
-  color: #01468B;
+.container-card .card, .container-card .card-img-top, .container-card .card-img-overlay {
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+.container-card .card-img-overlay {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=styles.css.map */

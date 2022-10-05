@@ -5,9 +5,8 @@ body{
     font-family: 'Poppins', sans-serif !important;
 }
 
-.container-fluid{
-   padding: 0 !important;
-}
+
+
 
 .dinamiq-text-h1{
     color: $dinamiq-white;
@@ -22,6 +21,9 @@ body{
     font-weight: 600;
     letter-spacing: 0;
     line-height: 76px;
+}
+.dinamiq-text-h2.dark-blue{
+    color: $dinamiq-dark-blue;
 }
 .dinamiq-text-h3{
     color: $dinamiq-white;
@@ -114,6 +116,17 @@ body{
         margin: 9px 16px 18px 0;
     }
 }
-.dinamiq-text-h2.dark-blue{
-    color: $dinamiq-dark-blue;
+
+//
+.container-card{
+    .card, .card-img-top, .card-img-overlay{
+        border: 0!important;
+        border-radius: 0!important;
+    }
+    .card-img-overlay{
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
